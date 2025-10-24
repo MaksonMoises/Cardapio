@@ -64,7 +64,19 @@
                    Padding="10"
                    HasShadow="False">
                 <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
-                    <Image Source="prato8.jpg"/>
+                    <Image Source="prato8.jpg"
+                           HeightRequest="60"
+                           WidthRequest="60"
+                           Aspect="AspectFill"/>
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Label Text="Pastel"
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               TextColor="Black"/>
+                        <Label Text="R$8,90"
+                               FontSize="14"
+                               TextColor="Black"/>
+                    </VerticalStackLayout>
                 </HorizontalStackLayout>
             </Frame>
         </VerticalStackLayout>
