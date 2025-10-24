@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cardapio.View.Tela2"
-             Title="Tela2">
+             Title="Tela2"
+             BackgroundColor="#FFFFFF">
     
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
@@ -18,21 +19,21 @@
                    BackgroundColor="#A17B5F"
                    HeightRequest="160"
                    HorizontalOptions="Center">
-                <Image Source="img.jpeg"
+                <Image Source="imgp.jpeg"
                        Aspect="AspectFill"
                        HeightRequest="160"
                        WidthRequest="300"/>
                 
             </Frame>
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
-                <Image Source="prato1.jpg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
-                <Image Source="prato2.jpg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
-                <Image Source="prato3.jpg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
+                <Image Source="img1.jpeg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
+                <Image Source="img2.png" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
+                <Image Source="img3.jpeg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
             </HorizontalStackLayout>
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
-                <Image Source="prato4.jpg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
-                <Image Source="prato5.jpg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
-                <Image Source="prato6.jpg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
+                <Image Source="img4.jpeg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
+                <Image Source="img5.jpeg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
+                <Image Source="img6.jpeg" HeightRequest="70" WidthRequest="70" Aspect="AspectFill"/>
             </HorizontalStackLayout>
             <Label Text="Destaques do Dia"
                    FontSize="20"
@@ -44,7 +45,7 @@
                    Padding="10"
                    HasShadow="False">
                 <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
-                    <Image Source="prato7.jpg"
+                    <Image Source="img7.jpeg"
                            HeightRequest="60"
                            WidthRequest="60"
                            Aspect="AspectFill"/>
@@ -64,7 +65,19 @@
                    Padding="10"
                    HasShadow="False">
                 <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
-                    <Image Source="prato8.jpg"/>
+                    <Image Source="img8.jpeg"
+                           HeightRequest="60"
+                           WidthRequest="60"
+                           Aspect="AspectFill"/>
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Label Text="Pastel"
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               TextColor="Black"/>
+                        <Label Text="R$8,90"
+                               FontSize="14"
+                               TextColor="Black"/>
+                    </VerticalStackLayout>
                 </HorizontalStackLayout>
             </Frame>
         </VerticalStackLayout>

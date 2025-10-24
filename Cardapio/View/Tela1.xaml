@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cardapio.View.Tela1"
-             Title="Tela1">
+             Title="Tela1"
+             BackgroundColor="#FFFFFF">
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-            <Image Source="logo.png"
+            <Image Source="logo.jpeg"
                    HeightRequest="100"
                    WidthRequest="100"
                    HorizontalOptions="Center"/>
@@ -42,8 +43,8 @@
 
             <Button Text="Entrar"
                     FontSize="18"
-                    WidthRequest="25"
-                    HeightRequest="200"
+                    WidthRequest="120"
+                    HeightRequest="20"
                     BackgroundColor="#BFBFBF"
                     TextColor="Black"
                     HorizontalOptions="Center"

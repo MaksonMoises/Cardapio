@@ -1,3 +1,4 @@
+using System;
 namespace Cardapio.View;
 
 public partial class Tela2 : ContentPage
