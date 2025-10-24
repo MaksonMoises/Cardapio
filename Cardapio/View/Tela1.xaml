@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cardapio.View.Tela1"
+             Title="Tela1">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+            <Image Source="logo.png"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Center"/>
+            
+            <Label Text="Login"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0, 30, 0, 10"
+                   TextColor="Black"/>
+
+            <Label Text="Email"
+                   FontSize="16"
+                   TextColor="Black"
+                   Margin="0, 0, 0, 5"/>
+
+            <Entry Placeholder=""
+                   HeightRequest="45"
+                   BackgroundColor="#BFBFBF"
+                   TextColor="Black"
+                   Margin="0, 0, 0, 10"/>
+
+            <Label Text="Senha"
+                   FontSize="16"
+                   TextColor="Black"
+                   Margin="0, 0, 0, 5"/>
+
+            <Entry Placeholder=""
+                   IsPassword="True"
+                   HeightRequest="45"
+                   BackgroundColor="#BFBFBF"
+                   TextColor="Black"
+                   Margin="0, 0, 0, 20"/>
+
+            <Button Text="Entrar"
+                    FontSize="18"
+                    WidthRequest="25"
+                    HeightRequest="200"
+                    BackgroundColor="#BFBFBF"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    Margin="0, 10, 0, 0"
+                    Clicked="In_cardapio"/>
+
+            <Label Text="Esqueci minha senha"
+                   FontSize="14"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   Margin="0, 15, 0, 0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                        Tapped="Esqueci" 
+                        NumberOfTapsRequired="1"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
